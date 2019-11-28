@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import Header from './componentes/componentesPrincipais/Header';
-import Footer from './componentes/componentesPrincipais/Footer';
-import Main from './componentes/componentesPrincipais/Main';
+import Header from './componentes/componentesEstruturalHtml/Header';
+import Main from './componentes/componentesEstruturalHtml/Main';
+import Footer from './componentes/componentesEstruturalHtml/Footer';
 
 class App extends Component {
   // colocar aqui somente atributos referente ao componente, setar variaveis
   constructor() {
     super();
     // variavel state guarda os dados dos compenentes
-    this.state = "teste" 
+  
   }
 
   // funçao que atualiza o estado do componente renderizado depois que o metodo render é invocado. 

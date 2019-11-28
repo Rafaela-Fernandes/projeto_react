@@ -119,6 +119,7 @@ span {
     display: flex;
     flex-wrap: nowrap;
     margin-top: 3%;
+    background-color: #ebebeb;
 }
 
 .conteudo_info_geral {
