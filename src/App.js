@@ -1,26 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import Header from './componentes/componentesPrincipais/Header';
+import Footer from './componentes/componentesPrincipais/Footer';
+import Main from './componentes/componentesPrincipais/Main';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  // colocar aqui somente atributos referente ao componente, setar variaveis
+  constructor() {
+    super();
+    // variavel state guarda os dados dos compenentes
+    this.state = "teste" 
+  }
+
+  // funçao que atualiza o estado do componente renderizado depois que o metodo render é invocado. 
+  // componentDidMount() {
+   
+
+  // }
+
+
+  render() {
+    return (
+        
+      <div>
+         <Header></Header>
+
+          <Main></Main>
+
+         <Footer></Footer>
+      </div>
+         
+    );
+  }
 }
-
 export default App;
