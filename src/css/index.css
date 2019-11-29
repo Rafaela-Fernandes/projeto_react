@@ -1,0 +1,386 @@
+/* criei variaveis para cores e fonts, pois se repetem muito, caso precise alterar 
+basta fazer alterarcao em u8nico lugar. O correto mesmo seria usar Sass, fiz um curso 
+peguei noção do que se trata mas decidir não palicar, o tempo é curto e teria que ficar revendo muitos detalhes
+
+*/
+
+:root {
+
+    --main-font-famyly-abel: 'Abel', sans-serif;
+    --main-font-famyly-lato: 'Lato', sans-serif;
+    --main-bg-color: #116193;
+    --main-text-color: #00dcdd;
+    --main-border-color_box_valor: #00dcdd;
+    --main-border-color_button: #116193;
+    --main-placeholder-color: #9bb5c5;
+    --main-link-color: #116193;
+    /* variaveis mais informação*/
+    --main-bg-header-mais-info: #e6e6e6;
+    --main-text-mais-info: #116193;
+    --main-hr: #00dcdd;
+   
+}
+
+
+/*estilizacaoinicial, usando css grid*/
+
+.app {
+    background: #FFF;
+    display: grid;
+    grid-template-areas: "cabecalho" "conteudo" "rodape";
+    grid-template-columns: auto;
+    grid-template-rows: 10vh auto 10vh;
+    overflow-x: hidden;
+    width: -webkit-fill-available;
+}
+
+.cabecalho {
+    grid-area: cabecalho;
+    background-color: var(--main-bg-color);
+    padding: 1.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.conteudo {
+    grid-area: conteudo;
+}
+
+.rodape {
+    grid-area: rodape;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+span {
+    color: var(--main-text-color);
+    font-family: var(--main-font-famyly-abel);
+    text-transform: capitalize;
+}
+
+
+/* css conteudo central*/
+
+.conteudo_box_central {
+    margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 8rem
+}
+
+.box_input input {
+    width: 100%;
+    padding: 0.8rem;
+    border-radius: 50px;
+    border: none;
+    display: block;
+    background: #ececec;
+    font-family: var(--main-font-famyly-abel);
+    outline: none;
+    caret-color: var(--main-bg-color);
+    font-size: 1.2rem;
+}
+
+.box_input input:focus {
+    color: #116193;
+}
+
+
+/* css do placeholder adquirido so site Devmidia*/
+
+::-webkit-input-placeholder {
+    color: var(--main-placeholder-color);
+}
+
+ :-moz-placeholder {
+    /* Firefox 18- */
+    color: var(--main-placeholder-color);
+}
+
+ ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: var(--main-placeholder-color);
+}
+
+ :-ms-input-placeholder {
+    color: var(--main-placeholder-color);
+}
+
+.conteudo_box_img {
+    display: contents;
+}
+
+.conteudo_geral {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 3%;
+    background-color: #ebebeb;
+}
+
+.conteudo_info_geral {
+    flex-grow: 1;
+}
+
+.conteudo_info_header h2 {
+    transform: translate(15px, 35px);
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.conteudo_info_header {
+    background-color: var(--main-bg-color);
+    display: flex;
+}
+
+.conteudo_info_valor {
+    height: 90px;
+    width: 90px;
+    background-color: var(--main-bg-color);
+    border-radius: 50px;
+    margin-left: 2%;
+    transform: translateY(35px);
+}
+
+.conteudo_info_valor>div {
+    content: "";
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    display: block;
+    background: transparent;
+    border: solid 5px var(--main-border-color_box_valor);
+    transform: translate(5px, 5px)
+}
+
+.conteudo_info_valor>div span {
+    display: block;
+    text-align: center;
+    line-height: 4.3
+}
+
+.conteudo_info_data {
+    transform: translate(125px, 10px);
+}
+
+.conteudo_info_data span {
+    color: #b2b2b2;
+    font-size: 1.3rem;
+}
+
+.conteudo_info_paragrafo {
+    padding: 1rem 1.5rem;
+    color: #5e5e5e;
+    font-family: var(--main-font-famyly-lato);
+    line-height: 1.5;
+}
+
+.conteudo_info_btn {
+    padding: 0 1.3rem 2.5rem 1.3rem;
+}
+
+.conteudo_mais_info_btn{
+    padding: 0 2.5rem;
+}
+
+.conteudo_info_btn button, .conteudo_mais_info_btn button {
+    background-color: #Fff;
+    border: solid 1px var(--main-border-color_button);
+    border-radius: 50px;
+    padding: 0.3rem 0.8rem;
+    margin: 0 0.1rem;
+    user-select: none;
+    font-family: var(--main-font-famyly-abel);
+    font-size: 1.1rem;
+    outline: none;
+    transition: all 1s;
+}
+
+.conteudo_info_btn button:hover, .conteudo_mais_info_btn button:hover {
+    background-color: var(--main-bg-color);
+    border: solid 1px var(--main-bg-color);
+    color: #fff;
+}
+
+
+/* css footer*/
+
+.conteudo_paginacao {
+    background: darkgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFf;
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+
+.conteudo_paginacao a {
+    color: var(--main-link-color);
+    padding: 0.7rem 1.1rem;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 2;
+    margin: 0 0.3rem;
+}
+
+.conteudo_paginacao a.active {
+    background-color: var(--main-bg-color);
+    border: solid var(--main-border-color_box_valor) 4px;
+    color: #fff;
+}
+
+.conteudo_paginacao a:hover {
+    background-color: var(--main-bg-color);
+    color: #FFF;
+    transition: color 1s;
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------------*/
+
+
+/* csss mais informações*/
+
+.conteudo_geral_mais_info h2,
+.conteudo_geral_mais_info h4,
+.paragrafo_detalhes {
+    color: var(--main-text-mais-info);
+    font-family: var(--main-font-famyly-abel);
+}
+
+.conteudo_geral_mais_info h2 {
+    font-size: 1.8rem;
+}
+
+.conteudo_geral_mais_info h4 {
+    font-size: 1.5rem;
+}
+
+.conteudo_mais_detalhes p {
+    font-family: var(--main-font-famyly-abel);
+    line-height: 0.5;
+    font-size: 1.133rem;
+}
+
+.conteudo_geral_mais_info {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 3%;
+}
+
+.conteudo_mais_info {
+    flex-grow: 1;
+    background-color:#f2f2f2; 
+}
+
+.conteudo_mais_info_header {
+    background-color: var(--main-bg-header-mais-info);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+.conteudo_box_img {
+    display: contents;
+}
+
+.conteudo_mais_info_data span {
+    color: #b2b2b2;
+    font-size: 1.3rem;
+}
+
+.conteudo_geral_detalhes {
+    padding: 2.5rem;
+}
+
+.conteudo_mais_detalhes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.conteudo_geral_detalhes:nth-child(2) {
+    font-family: var(--main-font-famyly-lato);
+    line-height: 1.5;
+    color: #626262;
+}
+
+.paragrafo_detalhes~p {
+    color: #626262;
+}
+
+.m-top {
+    margin-top: 3%;
+}
+
+.p-mais-info {
+    padding: 0 2.5rem 2rem 2.5rem;
+}
+
+.conteudo_detalhes_valor {
+    height: 90px;
+    width: 90px;
+    background-color: var(--main-bg-color);
+    border-radius: 50px;
+    margin-left: 2%;
+    transform: translate(-43px, -43px);
+    float: right;
+}
+
+.conteudo_detalhes_valor>div {
+    content: "";
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    display: block;
+    background: transparent;
+    border: solid 5px var(--main-border-color_box_valor);
+    transform: translate(5px, 5px);
+}
+
+.conteudo_detalhes_valor>div span {
+    display: block;
+    text-align: center;
+    line-height: 4.3
+}
+
+.box_btn_detalhes{
+    padding-left: 1.3rem;
+}
+
+
+ 
+.box_btn_detalhes a {
+    background-color: #4d82a2;
+    border-radius: 50px;
+    padding: 1rem 4rem;
+    color: #fff;
+    font-family: var(--main-font-famyly-abel);
+    font-size: 1.3rem;
+    text-align: center;
+
+}
+
+.box_btn_detalhes a:hover{
+     background-color:#325a74 ;
+     transition: all 1s;
+}
+
+/* .conteudo_mais_detalhes div {
+    flex: 1
+} */
+
+hr {
+    border-top: var(--main-hr) solid 1px
+}
