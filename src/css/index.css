@@ -5,12 +5,8 @@ peguei noção do que se trata mas decidir não palicar, o tempo é curto e teri
 */
 
 :root {
-<<<<<<< HEAD
-
     --main-font-famyly-abel: 'Abel', sans-serif;
     --main-font-famyly-lato: 'Lato', sans-serif;
-=======
->>>>>>> 178bf87074f36bf6166d09ebfdd6cc1dbb2eb798
     --main-bg-color: #116193;
     --main-text-color: #00dcdd;
     --main-border-color_box_valor: #00dcdd;
@@ -21,12 +17,6 @@ peguei noção do que se trata mas decidir não palicar, o tempo é curto e teri
     --main-bg-header-mais-info: #e6e6e6;
     --main-text-mais-info: #116193;
     --main-hr: #00dcdd;
-<<<<<<< HEAD
-   
-=======
-    --main-font-famyly-abel: 'Abel', sans-serif;
-    --main-font-famyly-lato: 'Lato', sans-serif;
->>>>>>> 178bf87074f36bf6166d09ebfdd6cc1dbb2eb798
 }
 
 
@@ -190,21 +180,15 @@ span {
 }
 
 .conteudo_info_btn {
-<<<<<<< HEAD
     padding: 0 1.3rem 2.5rem 1.3rem;
 }
 
-.conteudo_mais_info_btn{
+.conteudo_mais_info_btn {
     padding: 0 2.5rem;
 }
 
-.conteudo_info_btn button, .conteudo_mais_info_btn button {
-=======
-    padding: 0 1.3rem 4rem 1.3rem;
-}
-
-.conteudo_info_btn button {
->>>>>>> 178bf87074f36bf6166d09ebfdd6cc1dbb2eb798
+.conteudo_info_btn button,
+.conteudo_mais_info_btn button {
     background-color: #Fff;
     border: solid 1px var(--main-border-color_button);
     border-radius: 50px;
@@ -217,11 +201,8 @@ span {
     transition: all 1s;
 }
 
-<<<<<<< HEAD
-.conteudo_info_btn button:hover, .conteudo_mais_info_btn button:hover {
-=======
-.conteudo_info_btn button:hover {
->>>>>>> 178bf87074f36bf6166d09ebfdd6cc1dbb2eb798
+.conteudo_info_btn button:hover,
+.conteudo_mais_info_btn button:hover {
     background-color: var(--main-bg-color);
     border: solid 1px var(--main-bg-color);
     color: #fff;
@@ -298,10 +279,7 @@ span {
 
 .conteudo_mais_info {
     flex-grow: 1;
-<<<<<<< HEAD
-    background-color:#f2f2f2; 
-=======
->>>>>>> 178bf87074f36bf6166d09ebfdd6cc1dbb2eb798
+    background-color: #f2f2f2;
 }
 
 .conteudo_mais_info_header {
@@ -316,11 +294,7 @@ span {
     display: contents;
 }
 
-<<<<<<< HEAD
 .conteudo_mais_info_data span {
-=======
-.conteudo_mais_info_data {
->>>>>>> 178bf87074f36bf6166d09ebfdd6cc1dbb2eb798
     color: #b2b2b2;
     font-size: 1.3rem;
 }
@@ -381,13 +355,10 @@ span {
     line-height: 4.3
 }
 
-<<<<<<< HEAD
-.box_btn_detalhes{
+.box_btn_detalhes {
     padding-left: 1.3rem;
 }
 
-
- 
 .box_btn_detalhes a {
     background-color: #4d82a2;
     border-radius: 50px;
@@ -396,15 +367,13 @@ span {
     font-family: var(--main-font-famyly-abel);
     font-size: 1.3rem;
     text-align: center;
-
 }
 
-.box_btn_detalhes a:hover{
-     background-color:#325a74 ;
-     transition: all 1s;
+.box_btn_detalhes a:hover {
+    background-color: #325a74;
+    transition: all 1s;
 }
-=======
->>>>>>> 178bf87074f36bf6166d09ebfdd6cc1dbb2eb798
+
 
 /* .conteudo_mais_detalhes div {
     flex: 1

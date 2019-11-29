@@ -4,10 +4,7 @@ import Buttons from '../componentes_Basicos/Buttons';
 import Input from '../componentes_Basicos/Input';
 import Pontuacao from '../componentes_Basicos/Pontuacao';
 import DataFilme from '../componentes_Basicos/DataFilme';
-<<<<<<< HEAD
 import ButtonDetalhes from '../componentes_Basicos/ButtonDetalhes';
-=======
->>>>>>> 178bf87074f36bf6166d09ebfdd6cc1dbb2eb798
 
 export default class ConteudoCentral extends Component {
 
@@ -24,17 +21,10 @@ export default class ConteudoCentral extends Component {
               </div>
               <div className="conteudo_info_geral">
                   <div className="conteudo_info_header">
-<<<<<<< HEAD
                        <Pontuacao className="conteudo_info_valor"></Pontuacao>
                       <h2>Thor:Ragnarok</h2>
                   </div>
                     <DataFilme className="conteudo_info_data"></DataFilme>
-=======
-                       <Pontuacao></Pontuacao>
-                      <h2>Thor:Ragnarok</h2>
-                  </div>
-                    <DataFilme></DataFilme>
->>>>>>> 178bf87074f36bf6166d09ebfdd6cc1dbb2eb798
 
                   <div className="conteudo_info_paragrafo">
                       <p>É dividida, consensualmente e para fins didáticos, em três períodos principais: Período Colonial, Período Imperial e Período Republicano. ... Essa nomenclatura faz referência a Pedro Álvares Cabral, É dividida, consensualmente
@@ -43,13 +33,9 @@ export default class ConteudoCentral extends Component {
 
                       </p>
                   </div>
-<<<<<<< HEAD
                   <Buttons className="conteudo_info_btn"></Buttons>
 
                   <ButtonDetalhes></ButtonDetalhes>
-=======
-                  <Buttons></Buttons>
->>>>>>> 178bf87074f36bf6166d09ebfdd6cc1dbb2eb798
               </div>  
           </div>
        </div>
