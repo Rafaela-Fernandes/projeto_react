@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import Header from './componentes/componentesEstruturalHtml/Header';
-import Main from './componentes/componentesEstruturalHtml/Main';
 import Footer from './componentes/componentesEstruturalHtml/Footer';
+import ConteudoCentral from '../src/componentes/componentesCentralPage/ConteudoCentral';
+
+
 
 class App extends Component {
   // colocar aqui somente atributos referente ao componente, setar variaveis
@@ -21,10 +23,17 @@ class App extends Component {
   render() {
     return (
         
-      <div>
+      <div className="app">
          <Header></Header>
 
-          <Main></Main>
+         <main className="conteudo">
+              
+           <div className="conteudo_box_central">
+           
+            {this.props.children}
+            
+           </div>
+         </main>
 
          <Footer></Footer>
       </div>

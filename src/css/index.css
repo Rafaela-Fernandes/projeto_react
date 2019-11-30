@@ -8,6 +8,7 @@ peguei noção do que se trata mas decidir não palicar, o tempo é curto e teri
     --main-font-famyly-abel: 'Abel', sans-serif;
     --main-font-famyly-lato: 'Lato', sans-serif;
     --main-bg-color: #116193;
+    --main-text-link-color: #116193;
     --main-text-color: #00dcdd;
     --main-border-color_box_valor: #00dcdd;
     --main-border-color_button: #116193;
@@ -17,6 +18,7 @@ peguei noção do que se trata mas decidir não palicar, o tempo é curto e teri
     --main-bg-header-mais-info: #e6e6e6;
     --main-text-mais-info: #116193;
     --main-hr: #00dcdd;
+  
 }
 
 
@@ -26,10 +28,11 @@ peguei noção do que se trata mas decidir não palicar, o tempo é curto e teri
     background: #FFF;
     display: grid;
     grid-template-areas: "cabecalho" "conteudo" "rodape";
-    grid-template-columns: auto;
+    grid-template-columns: 100%;
     grid-template-rows: 10vh auto 10vh;
-    overflow-x: hidden;
+    overflow-x:  inherit;
     width: -webkit-fill-available;
+    overflow-y: hidden;
 }
 
 .cabecalho {
@@ -70,7 +73,7 @@ span {
     margin: auto;
     padding-left: 40px;
     padding-right: 40px;
-    padding-top: 8rem
+    padding-top: 3.5rem
 }
 
 .box_input input {
@@ -165,6 +168,7 @@ span {
 
 .conteudo_info_data {
     transform: translate(125px, 10px);
+    display: inline-block;
 }
 
 .conteudo_info_data span {
@@ -381,4 +385,14 @@ span {
 
 hr {
     border-top: var(--main-hr) solid 1px
+}
+
+.link-return img{
+    vertical-align: bottom;
+}
+
+.link-return {
+    font-size: 2rem;
+    font-family:  var(--main-font-famyly-abel);
+    color: var( --main-text-link-color);
 }

@@ -3,12 +3,18 @@ import imgTeste from '../../img/teste.png';
 import Buttons from '../componentes_Basicos/Buttons';
 import Pontuacao from '../componentes_Basicos/Pontuacao';
 import DataFilme from '../componentes_Basicos/DataFilme';
-
+import {Link} from 'react-router';
 
 export default class ConteudoCentralDetalhes extends Component{
      render(){
         return(
+
+            
+            <div>
+            
+             <Link  className="link-return" href="/filmes"> <img src="https://img.icons8.com/ultraviolet/40/000000/return.png"/> Home</Link>
             <div className="conteudo_geral_mais_info">
+
             <div className="conteudo_mais_info">
                 <div className="conteudo_mais_info_header">
                     <h2>Thor:Ragnarok</h2> 
@@ -57,6 +63,7 @@ export default class ConteudoCentralDetalhes extends Component{
                 <img src={imgTeste} alt=""/>
             </div>
         </div>
+            </div>
         )
      }
 }
