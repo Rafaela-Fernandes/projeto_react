@@ -80,8 +80,6 @@ export default class ConteudoCentral extends Component {
 
 
 
-          teste = () => {console.log(this) }
-          teste
 
     render(){
 
@@ -123,7 +121,7 @@ export default class ConteudoCentral extends Component {
                })
            }
          
-         
+          <Footer></Footer>
 
          
        </div>

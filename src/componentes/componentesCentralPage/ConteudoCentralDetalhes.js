@@ -56,8 +56,8 @@ export default class ConteudoCentralDetalhes extends Component{
                         </div>
                     </div>
                 </div>
-                <Buttons className="conteudo_mais_info_btn"></Buttons>
-              <Pontuacao className="conteudo_detalhes_valor"></Pontuacao>
+                <Buttons className="conteudo_mais_info_btn" g1={'Ficção Cientifica'} g2={'Aventura'} g3={'Ação'}></Buttons>
+              <Pontuacao className="conteudo_detalhes_valor" pontuacao={'90%'}></Pontuacao>
             </div>
             <div className="conteudo_box_img">
                 <img src={imgTeste} alt=""/>
