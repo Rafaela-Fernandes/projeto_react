@@ -225,8 +225,8 @@ span {
     margin-bottom: 2%;
 }
 
-.conteudo_paginacao a {
-    color: var(--main-link-color);
+.conteudo_paginacao button {
+    background-color: var(--main-link-color);
     padding: 0.7rem 1.1rem;
     width: 60px;
     height: 60px;
@@ -234,15 +234,19 @@ span {
     text-align: center;
     line-height: 2;
     margin: 0 0.3rem;
+    border: solid var(--main-border-color_box_valor) 2px;
+    color:#fff;
+    font-family: var(--main-font-famyly-abel);
+    outline: none;
 }
 
-.conteudo_paginacao a.active {
+.conteudo_paginacao button.active {
     background-color: var(--main-bg-color);
     border: solid var(--main-border-color_box_valor) 4px;
     color: #fff;
 }
 
-.conteudo_paginacao a:hover {
+.conteudo_paginacao button:hover {
     background-color: var(--main-bg-color);
     color: #FFF;
     transition: color 1s;

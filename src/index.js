@@ -13,7 +13,8 @@ import App from './App';
 
 ReactDOM.render( 
       (<Router history={browserHistory}>
-          <Route path="/" component={App}>
+          <Route path="" component={App}>
+          <Route path="/" component={ConteudoCentral}/>
             <Route path="/filmes" component={ConteudoCentral}/>
             <Route path="/detalhes" component={ConteudoCentralDetalhes}/>
           </Route>

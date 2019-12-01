@@ -9,7 +9,7 @@ export default class Pontuacao extends Component{
 
         <div className={this.props.className}>
             <div>
-                <span>75%</span>
+                <span>{this.props.pontuacao}</span>
             </div>
         </div>
         )

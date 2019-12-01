@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from './componentes/componentesEstruturalHtml/Header';
-import Footer from './componentes/componentesEstruturalHtml/Footer';
-import ConteudoCentral from '../src/componentes/componentesCentralPage/ConteudoCentral';
+
+
 
 
 
@@ -17,7 +17,7 @@ class App extends Component {
   // componentDidMount() {
    
 
-  // }
+  // } 
 
 
   render() {
@@ -35,7 +35,6 @@ class App extends Component {
            </div>
          </main>
 
-         <Footer></Footer>
       </div>
          
     );

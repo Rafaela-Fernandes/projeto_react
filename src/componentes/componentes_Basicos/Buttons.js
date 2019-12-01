@@ -5,9 +5,9 @@ export default class Buttons extends Component{
     render(){
         return(
         <div className={this.props.className}>
-            <button>Ação</button>
-            <button>Aventura</button>
-            <button>Fantasia</button>
+            <button>{this.props.g1}</button>
+            <button>{this.props.g2}</button>
+            <button>{this.props.g3}</button>
         </div>
         )
     }

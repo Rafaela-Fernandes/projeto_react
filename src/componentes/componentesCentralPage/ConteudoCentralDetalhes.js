@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import imgTeste from '../../img/teste.png';
+import imgTeste from '../../img/filmes/3022.jpg';
 import Buttons from '../componentes_Basicos/Buttons';
 import Pontuacao from '../componentes_Basicos/Pontuacao';
 import DataFilme from '../componentes_Basicos/DataFilme';

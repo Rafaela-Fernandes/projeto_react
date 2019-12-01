@@ -8,13 +8,10 @@ render(){
         
     <footer className="footer">
     <div className="conteudo_paginacao">
-        <a href="">1</a>
-        <a href="">2</a>
-        <a href="">3</a>
-        <a href="" className="active">4</a>
-        <a href="">5</a>
-        <a href="">6</a>
-        <a href="">7</a>
+       
+    <button type="button"  value={this.props.valor} onClick={this.props.Onclick}>
+        {this.props.nome}
+    </button>
 
     </div>
   </footer>

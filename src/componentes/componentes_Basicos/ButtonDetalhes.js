@@ -5,7 +5,7 @@ export default class ButtonDetalhes  extends Component{
          return(
 
         <div className="box_btn_detalhes">
-           <Link href="/detalhes">Mais detalhes</Link>
+           <Link href="/detalhes" >Mais detalhes</Link>
         </div>
          )
     }
