@@ -121,7 +121,7 @@ export default class ConteudoCentral extends Component {
                })
            }
          
-          <Footer></Footer>
+          <Footer onClick={this.requisicaoPagina} value={3}></Footer>
 
          
        </div>
