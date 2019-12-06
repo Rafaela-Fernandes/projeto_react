@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import imgTeste from '../../img/filmes/3022.jpg';
 import Buttons from '../componentes_Basicos/Buttons';
 import Pontuacao from '../componentes_Basicos/Pontuacao';
 import DataFilme from '../componentes_Basicos/DataFilme';
@@ -11,7 +10,7 @@ export default class ConteudoCentralDetalhes extends Component{
     constructor(props){
         super(props)
 
-        this.state = {filmes:[], id:0};
+        this.state = {filmes:[]};
        
        
     }
@@ -19,12 +18,10 @@ export default class ConteudoCentralDetalhes extends Component{
 
     componentDidMount(){
 
-        var urlParams = new URLSearchParams(window.location.search);  
-        this.state.id = urlParams.toString().slice(3);
-
+     
         $.ajax({
 
-            url: ` http://localhost:3004/filmes?id=${this.state.id}`,
+            url: ` http://localhost:3004/filmes?id=${this.props.location.query.id}`,
             dataType:'json',
             type:'GET',
             success: function(resp,status,xhr){
@@ -33,7 +30,9 @@ export default class ConteudoCentralDetalhes extends Component{
 
             }.bind(this)
         });
-
+      
+        
+        
     }
 
      render(){
@@ -93,7 +92,7 @@ export default class ConteudoCentralDetalhes extends Component{
                                       <Pontuacao className="conteudo_detalhes_valor" pontuacao={filme.pontuacao}></Pontuacao>
                                     </div>
                                     <div className="conteudo_box_img">
-                                        <img src={imgTeste} alt=""/>
+                                        <img src={filme.url} alt=""/>
                                     </div>
                                 </div>
 

@@ -5,8 +5,8 @@ import Pontuacao from '../componentes_Basicos/Pontuacao';
 import DataFilme from '../componentes_Basicos/DataFilme';
 import ButtonDetalhes from '../componentes_Basicos/ButtonDetalhes';
 import Footer from '../componentesEstruturalHtml/Footer';
-import $ from 'jquery'
-import imgTeste from '../../img/filmes/3022.jpg'
+import $ from 'jquery';
+
 import {Link} from 'react-router';
 
 export default class ConteudoCentral extends Component {
@@ -14,7 +14,7 @@ export default class ConteudoCentral extends Component {
      constructor(props){
          super(props)
 
-         this.state = {filmes:[],  totalPagina:5, totalObjetos:0,valor:0};
+         this.state= {filmes:[],  totalPagina:5, totalObjetos:0,valor:0};
          //this.construcaoButtons = this.construcaoButtons.bind(this);
          this.requisicaoPagina = this.requisicaoPagina.bind(this);
         
@@ -95,7 +95,7 @@ export default class ConteudoCentral extends Component {
 
                  <div className="conteudo_geral"  key={filme.id}>
                     <div className="conteudo_box_img">
-                        <img src={imgTeste} alt=""/>
+                        <img src={filme.url} alt=""/>
                     </div>
                     <div className="conteudo_info_geral">
                         <div className="conteudo_info_header">

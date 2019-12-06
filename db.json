@@ -1,68 +1,150 @@
 {
     "filmes": [{
-        "id": 1,
-        "nome":"Teste_01",
-        "url": "http://localhost:3000/static/media/3022.b41a0b63.jpg",
-        "pontuacao":"100%",
-         "data":"00005/12/2019",
-         "sinopse":"Um grupo de astronautas que vivem no assustador vazio do espaço profundo acordam para descobrir que a Terra sofreu um evento de extinção global.",
-         "genero":["Ficção Cientifica","Aventura","acao"],
-         "situacao":"locacao",
-         "idioma":"Inglês",
-         "duracao":    "2h 10min",
-         "orcamento":"10.000.000.00",
-         "receita":"15.000.000.00",
-         "lucro": "20.000.000.00"
+            "id": 1,
+            "nome": "Frozen II",
+            "url": "http://localhost:3000/img/filmes/fronze-ii.jpg",
+            "pontuacao": "70%",
+            "data": "01/04/2019",
+            "sinopse": "De volta à infância de Elsa e Anna, as duas garotas descobrem uma história do pai, quando ainda era príncipe de Arendelle. Ele conta às meninas a história de uma visita à floresta dos elementos, onde um acontecimento inesperado teria provocado a sepaação dos habitantes da cidade com os quatro elementos fundamentais: ar, fogo, terra e água. Esta revelação ajudará Elsa a compreender a origem de seus poderes.",
+            "genero": ["Ficção Cientifica", "Aventura", "acao"],
+            "situacao": "locacao",
+            "idioma": "Inglês",
+            "duracao": "2h 10min",
+            "orcamento": "10.000.000.00",
+            "receita": "15.000.000.00",
+            "lucro": "20.000.000.00"
 
-    },
-    {
-        "id": 2,
-        "nome":"Teste_02",
-        "url": "http://localhost:3000/static/media/3022.b41a0b63.jpg",
-        "pontuacao":"90%",
-         "data":"25/03/2019",
-         "sinopse":"Um grupo de astronautas que vivem no assustador vazio do espaço profundo acordam para descobrir que a Terra sofreu um evento de extinção global.",
-         "genero":["Ficção Cientifica","Aventura","acao"],
-         "situacao":"locacao",
-         "idioma":"Inglês",
-         "duracao":    "2h 10min",
-         "orcamento":"10.000.000.00",
-         "receita":"15.000.000.00",
-         "lucro": "20.000.000.00"
+        },
+        {
+            "id": 2,
+            "nome": "Rambo: Até o fim",
+            "url": "http://localhost:3000/img/filmes/rambo.jpg",
+            "pontuacao": "58%",
+            "data": "10/9/2019",
+            "sinopse": "O tempo passou para Rambo (Sylvester Stallone), agora ele vive recluso e trabalha em um rancho que fica na fronteira entre os Estados Unidos e o México. Sua vida antiga marcada por lutas violentas, mas quase sempre vitoriosas, ficou no passado. No entanto, quando a filha de um amigo é sequestrada, Rambo não consegue controlar seu ímpeto por justiça e resolve enfrentar um dos mais perigosos cartéis do México.",
+            "genero": ["Ficção Cientifica", "Aventura", "acao"],
+            "situacao": "locacao",
+            "idioma": "Inglês",
+            "duracao": "2h 10min",
+            "orcamento": "10.000.000.00",
+            "receita": "15.000.000.00",
+            "lucro": "20.000.000.00"
 
-    },
-    {
-        "id": 3,
-        "nome":"Teste_03",
-        "url": "http://localhost:3000/static/media/3022.b41a0b63.jpg",
-        "pontuacao":"80%",
-         "data":"25/03/2019",
-         "sinopse":"Um grupo de astronautas que vivem no assustador vazio do espaço profundo acordam para descobrir que a Terra sofreu um evento de extinção global.",
-         "genero":["Ficção Cientifica","Aventura","acao"],
-         "situacao":"locacao",
-         "idioma":"Inglês",
-         "duracao":    "2h 10min",
-         "orcamento":"10.000.000.00",
-         "receita":"15.000.000.00",
-         "lucro": "20.000.000.00"
+        },
+        {
+            "id": 3,
+            "nome": "Coringa",
+            "url": "http://localhost:3000/img/filmes/coringa.jpg",
+            "pontuacao": "84%",
+            "data": "25/03/2019",
+            "sinopse": "Coringa é uma história original do vilão nunca antes vista no cinema. Arthur Fleck (Joaquin Phoenix) trabalha como palhaço para uma agência de talentos e, toda semana, precisa comparecer a uma agente social, devido aos seus conhecidos problemas mentais. Após ser demitido, Fleck reage mal à gozação de três homens em pleno metrô e os mata. Os assassinatos iniciam um movimento popular contra a elite de Gotham City, da qual Thomas Wayne (Brett Cullen) é seu maior representante. A versão de Phillips sobre Arthur Fleck, um homem desprezado pela sociedade, não é só uma visão realista do personagem, mas também uma lição de vida.",
+            "genero": ["Ficção Cientifica", "Aventura", "acao"],
+            "situacao": "locacao",
+            "idioma": "Inglês",
+            "duracao": "2h 10min",
+            "orcamento": "10.000.000.00",
+            "receita": "15.000.000.00",
+            "lucro": "20.000.000.00"
 
-    },
-    {
-        "id": 4,
-        "nome":"Teste_04",
-        "url": "http://localhost:3000/static/media/3022.b41a0b63.jpg",
-        "pontuacao":"76%",
-         "data":"25/03/2019",
-         "sinopse":"Um grupo de astronautas que vivem no assustador vazio do espaço profundo acordam para descobrir que a Terra sofreu um evento de extinção global.",
-         "genero":["Ficção Cientifica","Aventura","acao"],
-         "situacao":"locacao",
-         "idioma":"Inglês",
-         "duracao":    "2h 10min",
-         "orcamento":"10.000.000.00",
-         "receita":"15.000.000.00",
-         "lucro": "20.000.000.00"
+        },
+        {
+            "id": 4,
+            "nome": "As Golpista",
+            "url": "http://localhost:3000/img/filmes/golpista.jpg",
+            "pontuacao": "62%",
+            "data": "25/03/2019",
+            "sinopse": "Inspirado na história verídica de um grupo de strippers que se aliam para se vingarem dos seus clientes ricos de Wall Street. Um filme com Jennifer Lopez, Constance Wu (Crazy Rich Asians), Lili Reinhart (Riverdale) e ainda Lizzo e Cardi B nas suas estreias em cinema.",
+            "genero": ["Ficção Cientifica", "Aventura", "acao"],
+            "situacao": "locacao",
+            "idioma": "Inglês",
+            "duracao": "2h 10min",
+            "orcamento": "10.000.000.00",
+            "receita": "15.000.000.00",
+            "lucro": "20.000.000.00"
 
-    }
+        },
+        {
+            "id": 5,
+            "nome": "Rei Leão",
+           "url": "http://localhost:3000/img/filmes/rei-leao.jpg",
+            "pontuacao": "71%",
+            "data": "12/06/2019",
+            "sinopse": "Mufasa é o rei na savana africana, respeitado por outros animais e temido por inimigos. Seu filho, Simba, tem o pai como ídolo e aprendeu com ele sobre o ciclo da vida e a importância de manter a harmonia e dar continuidade ao reinado da Pedra do Reino. Por outro lado, o invejoso tio Scar, ex-herdeiro do trono e irmão de Mufasa, não dava a mínima para a tradição, conseguiu fazer com que o sobrinho fosse exilado, e assim assumiu o poder. Longe de casa e de todos, Simba criou fortes laços com o lêmure Timão e o javali Pumba, dois novos e fiéis amigos. Juntos, eles viverão uma jornada de descobertas e crescimento, culminando com o retorno do adulto Simba para seu lugar de verdadeiro rei.",
+            "genero": ["Ficção Cientifica", "Aventura", "acao"],
+            "situacao": "locacao",
+            "idioma": "Inglês",
+            "duracao": "2h 10min",
+            "orcamento": "10.000.000.00",
+            "receita": "15.000.000.00",
+            "lucro": "20.000.000.00"
+
+        },
+        {
+            "id": 6,
+            "nome": "Vingadores: Guerra Infinita",
+           "url": "http://localhost:3000/img/filmes/vingadores.jpg",
+            "pontuacao": "83%",
+            "data": "12/06/2019",
+            "sinopse": "Enquanto os Vingadores e seus aliados continuaram a proteger o mundo de ameaças grandes demais para qualquer herói, uma nova ameaça emergiu das sombras cósmicas: Thanos. Um déspota de infâmia intergalática, tem o objetivo de coletar todas as seis Joias do Infinito, artefatos de poder inimaginável, e usá-las para infligir sua vontade distorcida em toda a realidade. Tudo pelo que os Vingadores lutaram levou até este momento - o destino da Terra e da própria existência nunca foi tão incerto..",
+            "genero": ["Ficção Cientifica", "Aventura", "acao"],
+            "situacao": "locacao",
+            "idioma": "Inglês",
+            "duracao": "2h 10min",
+            "orcamento": "10.000.000.00",
+            "receita": "15.000.000.00",
+            "lucro": "20.000.000.00"
+
+        },
+        {
+            "id": 7,
+            "nome": "Ellipse",
+           "url": "http://localhost:3000/img/filmes/ellipse.jpg",
+            "pontuacao": "90%",
+            "data": "12/12/2019",
+            "sinopse": "Um homem e seu cachorro estão presos em um planeta volátil e oval e são forçados a se adaptar e escapar antes que o tempo destrua os dois.",
+            "genero": ["Ficção Cientifica", "Aventura", "acao"],
+            "situacao": "locacao",
+            "idioma": "Inglês",
+            "duracao": "2h 10min",
+            "orcamento": "10.000.000.00",
+            "receita": "15.000.000.00",
+            "lucro": "20.000.000.00"
+
+        },
+        {
+
+            "id": 8,
+            "nome": "Homem-Aranha: Longe de Casa ",
+            "url": "http://localhost:3000/img/filmes/homem-aranha.jpg",
+            "pontuacao": "76%",
+            "data": "12/12/2019",
+            "sinopse": "Peter Parker (Tom Holland) está em uma viagem de duas semanas pela Europa, ao lado de seus amigos de colégio, quando é surpreendido pela visita de Nick Fury (Samuel L. Jackson). Precisando de ajuda para enfrentar monstros nomeados como Elementais, Fury o convoca para lutar ao lado de Mysterio (Jake Gyllenhaal), um novo herói que afirma ter vindo de uma Terra paralela. Além da nova ameaça, Peter precisa lidar com a lacuna deixada por Tony Stark, que deixou para si seu óculos pessoal, com acesso a um sistema de inteligência artificial associado à Stark Industries.",
+            "genero": ["Ficção Cientifica", "Aventura", "acao"],
+            "situacao": "locacao",
+            "idioma": "Inglês",
+            "duracao": "2h 10min",
+            "orcamento": "10.000.000.00",
+            "receita": "15.000.000.00",
+            "lucro": "20.000.000.00"
+        },
+
+        {
+
+            "id": 9,
+            "nome": " John Wick 3: Parabellum ",
+               "url": "http://localhost:3000/img/filmes/jon-week.jpg",
+            "pontuacao": "76%",
+            "data": "12/12/2019",
+            "sinopse": "Após assassinar o chefe da máfia Santino D'Antonio no Hotel Continental, John Wick (Keanu Reeves) passa a ser perseguido pelos membros da Alta Cúpula sob a recompensa de US$ 14 milhões. Agora, ele precisa unir forças com antigos parceiros que o ajudaram no passado enquanto luta por sua sobrevivência.",
+            "genero": ["Ficção Cientifica", "Aventura", "acao"],
+            "situacao": "locacao",
+            "idioma": "Inglês",
+            "duracao": "2h 10min",
+            "orcamento": "10.000.000.00",
+            "receita": "15.000.000.00",
+            "lucro": "20.000.000.00"
+        }
+
 
     ]
 }
