@@ -7,7 +7,7 @@ import ButtonDetalhes from '../componentes_Basicos/ButtonDetalhes';
 import Footer from '../componentesEstruturalHtml/Footer';
 import $ from 'jquery'
 import imgTeste from '../../img/filmes/3022.jpg'
-
+import {Link} from 'react-router';
 
 export default class ConteudoCentral extends Component {
  
@@ -26,16 +26,16 @@ export default class ConteudoCentral extends Component {
 
         $.ajax({
 
-            url: ` http://localhost:3004/filmes?_page=1&_limit=${this.state.totalPagina}`,
+            url: ` http://localhost:3004/filmes?_page=1&_limit=5`,
             dataType:'json',
             type:'GET',
             success: function(resp,status,xhr){
              
              this.setState({filmes:resp})
 
-             this.state.totalObjetos = Math.ceil(xhr.getResponseHeader('X-Total-Count') / this.state.totalPagina);
+             this.setState.totalObjetos = Math.ceil(xhr.getResponseHeader('X-Total-Count') / this.setState.totalPagina);
 
-                        for (let index = 1; index <= this.state.totalObjetos; index++) {
+                        for (let index = 1; index <= this.setState.totalObjetos; index++) {
 
                             this.construcaoButtons(index);
                            
@@ -111,7 +111,9 @@ export default class ConteudoCentral extends Component {
                         </div>
                         <Buttons className="conteudo_info_btn" g1={filme.genero[0]} g2={filme.genero[1]} g3={filme.genero[2]}></Buttons>
       
-                        <ButtonDetalhes></ButtonDetalhes>
+                        <ButtonDetalhes>
+                            <Link href={'/detalhes?id='+ filme.id}>Detalhes</Link>
+                        </ButtonDetalhes>
                     </div>  
                 </div>
 

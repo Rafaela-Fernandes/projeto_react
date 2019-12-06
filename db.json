@@ -1,14 +1,14 @@
 {
     "filmes": [{
         "id": 1,
-        "nome":"3022",
+        "nome":"Teste_01",
         "url": "http://localhost:3000/static/media/3022.b41a0b63.jpg",
-        "pontuacao":"75%",
-         "data":"25/03/2019",
+        "pontuacao":"100%",
+         "data":"00005/12/2019",
          "sinopse":"Um grupo de astronautas que vivem no assustador vazio do espaço profundo acordam para descobrir que a Terra sofreu um evento de extinção global.",
          "genero":["Ficção Cientifica","Aventura","acao"],
-         "situaaco":"locacao",
-         "Idioma":"Inglês",
+         "situacao":"locacao",
+         "idioma":"Inglês",
          "duracao":    "2h 10min",
          "orcamento":"10.000.000.00",
          "receita":"15.000.000.00",
@@ -17,14 +17,14 @@
     },
     {
         "id": 2,
-        "nome":"3022",
+        "nome":"Teste_02",
         "url": "http://localhost:3000/static/media/3022.b41a0b63.jpg",
-        "pontuacao":"75%",
+        "pontuacao":"90%",
          "data":"25/03/2019",
          "sinopse":"Um grupo de astronautas que vivem no assustador vazio do espaço profundo acordam para descobrir que a Terra sofreu um evento de extinção global.",
          "genero":["Ficção Cientifica","Aventura","acao"],
-         "situaaco":"locacao",
-         "Idioma":"Inglês",
+         "situacao":"locacao",
+         "idioma":"Inglês",
          "duracao":    "2h 10min",
          "orcamento":"10.000.000.00",
          "receita":"15.000.000.00",
@@ -33,14 +33,14 @@
     },
     {
         "id": 3,
-        "nome":"3022",
+        "nome":"Teste_03",
         "url": "http://localhost:3000/static/media/3022.b41a0b63.jpg",
-        "pontuacao":"75%",
+        "pontuacao":"80%",
          "data":"25/03/2019",
          "sinopse":"Um grupo de astronautas que vivem no assustador vazio do espaço profundo acordam para descobrir que a Terra sofreu um evento de extinção global.",
          "genero":["Ficção Cientifica","Aventura","acao"],
-         "situaaco":"locacao",
-         "Idioma":"Inglês",
+         "situacao":"locacao",
+         "idioma":"Inglês",
          "duracao":    "2h 10min",
          "orcamento":"10.000.000.00",
          "receita":"15.000.000.00",
@@ -49,215 +49,14 @@
     },
     {
         "id": 4,
-        "nome":"3022",
+        "nome":"Teste_04",
         "url": "http://localhost:3000/static/media/3022.b41a0b63.jpg",
-        "pontuacao":"75%",
+        "pontuacao":"76%",
          "data":"25/03/2019",
          "sinopse":"Um grupo de astronautas que vivem no assustador vazio do espaço profundo acordam para descobrir que a Terra sofreu um evento de extinção global.",
          "genero":["Ficção Cientifica","Aventura","acao"],
-         "situaaco":"locacao",
-         "Idioma":"Inglês",
-         "duracao":    "2h 10min",
-         "orcamento":"10.000.000.00",
-         "receita":"15.000.000.00",
-         "lucro": "20.000.000.00"
-
-    },
-
-
-    {
-        "id": 5,
-        "nome":"Coringa",
-        "url": "http://localhost:3000/static/media/3022.b41a0b63.jpg",
-        "pontuacao":"97%",
-         "data":"25/03/2019",
-         "sinopse":"Um grupo de astronautas que vivem no assustador vazio do espaço profundo acordam para descobrir que a Terra sofreu um evento de extinção global.",
-         "genero":["Ficção Cientifica","Aventura","acao"],
-         "situaaco":"locacao",
-         "Idioma":"Inglês",
-         "duracao":    "2h 10min",
-         "orcamento":"10.000.000.00",
-         "receita":"15.000.000.00",
-         "lucro": "20.000.000.00"
-
-    },
-    {
-        "id": 6,
-        "nome":"Hobbit",
-        "url": "http://localhost:3000/static/media/3022.b41a0b63.jpg",
-        "pontuacao":"90%",
-         "data":"25/03/2019",
-         "sinopse":"Um grupo de astronautas que vivem no assustador vazio do espaço profundo acordam para descobrir que a Terra sofreu um evento de extinção global.",
-         "genero":["Ficção Cientifica","Aventura","acao"],
-         "situaaco":"locacao",
-         "Idioma":"Inglês",
-         "duracao":    "2h 10min",
-         "orcamento":"10.000.000.00",
-         "receita":"15.000.000.00",
-         "lucro": "20.000.000.00"
-
-    },
-    {
-        "id": 7,
-        "nome":"3022",
-        "url": "http://localhost:3000/static/media/3022.b41a0b63.jpg",
-        "pontuacao":"75%",
-         "data":"25/03/2019",
-         "sinopse":"Um grupo de astronautas que vivem no assustador vazio do espaço profundo acordam para descobrir que a Terra sofreu um evento de extinção global.",
-         "genero":["Ficção Cientifica","Aventura","acao"],
-         "situaaco":"locacao",
-         "Idioma":"Inglês",
-         "duracao":    "2h 10min",
-         "orcamento":"10.000.000.00",
-         "receita":"15.000.000.00",
-         "lucro": "20.000.000.00"
-
-    },
-    {
-        "id": 8,
-        "nome":"3022",
-        "url": "http://localhost:3000/static/media/3022.b41a0b63.jpg",
-        "pontuacao":"75%",
-         "data":"25/03/2019",
-         "sinopse":"Um grupo de astronautas que vivem no assustador vazio do espaço profundo acordam para descobrir que a Terra sofreu um evento de extinção global.",
-         "genero":["Ficção Cientifica","Aventura","acao"],
-         "situaaco":"locacao",
-         "Idioma":"Inglês",
-         "duracao":    "2h 10min",
-         "orcamento":"10.000.000.00",
-         "receita":"15.000.000.00",
-         "lucro": "20.000.000.00"
-
-    },{
-        "id": 9,
-        "nome":"3022",
-        "url": "http://localhost:3000/static/media/3022.b41a0b63.jpg",
-        "pontuacao":"75%",
-         "data":"25/03/2019",
-         "sinopse":"Um grupo de astronautas que vivem no assustador vazio do espaço profundo acordam para descobrir que a Terra sofreu um evento de extinção global.",
-         "genero":["Ficção Cientifica","Aventura","acao"],
-         "situaaco":"locacao",
-         "Idioma":"Inglês",
-         "duracao":    "2h 10min",
-         "orcamento":"10.000.000.00",
-         "receita":"15.000.000.00",
-         "lucro": "20.000.000.00"
-
-    },{
-        "id": 10,
-        "nome":"Malevola",
-        "url": "http://localhost:3000/static/media/3022.b41a0b63.jpg",
-        "pontuacao":"75%",
-         "data":"25/03/2019",
-         "sinopse":"Um grupo de astronautas que vivem no assustador vazio do espaço profundo acordam para descobrir que a Terra sofreu um evento de extinção global.",
-         "genero":["Ficção Cientifica","Aventura","acao"],
-         "situaaco":"locacao",
-         "Idioma":"Inglês",
-         "duracao":    "2h 10min",
-         "orcamento":"10.000.000.00",
-         "receita":"15.000.000.00",
-         "lucro": "20.000.000.00"
-
-    },{
-        "id": 11,
-        "nome":"Rambo",
-        "url": "http://localhost:3000/static/media/3022.b41a0b63.jpg",
-        "pontuacao":"75%",
-         "data":"25/03/2019",
-         "sinopse":"Um grupo de astronautas que vivem no assustador vazio do espaço profundo acordam para descobrir que a Terra sofreu um evento de extinção global.",
-         "genero":["Ficção Cientifica","Aventura","acao"],
-         "situaaco":"locacao",
-         "Idioma":"Inglês",
-         "duracao":    "2h 10min",
-         "orcamento":"10.000.000.00",
-         "receita":"15.000.000.00",
-         "lucro": "20.000.000.00"
-
-    },{
-        "id": 12,
-        "nome":"3022",
-        "url": "http://localhost:3000/static/media/3022.b41a0b63.jpg",
-        "pontuacao":"75%",
-         "data":"25/03/2019",
-         "sinopse":"Um grupo de astronautas que vivem no assustador vazio do espaço profundo acordam para descobrir que a Terra sofreu um evento de extinção global.",
-         "genero":["Ficção Cientifica","Aventura","acao"],
-         "situaaco":"locacao",
-         "Idioma":"Inglês",
-         "duracao":    "2h 10min",
-         "orcamento":"10.000.000.00",
-         "receita":"15.000.000.00",
-         "lucro": "20.000.000.00"
-
-    },{
-        "id": 13,
-        "nome":"3022",
-        "url": "http://localhost:3000/static/media/3022.b41a0b63.jpg",
-        "pontuacao":"75%",
-         "data":"25/03/2019",
-         "sinopse":"Um grupo de astronautas que vivem no assustador vazio do espaço profundo acordam para descobrir que a Terra sofreu um evento de extinção global.",
-         "genero":["Ficção Cientifica","Aventura","acao"],
-         "situaaco":"locacao",
-         "Idioma":"Inglês",
-         "duracao":    "2h 10min",
-         "orcamento":"10.000.000.00",
-         "receita":"15.000.000.00",
-         "lucro": "20.000.000.00"
-
-    },{
-        "id": 14,
-        "nome":"vingadores",
-        "url": "http://localhost:3000/static/media/3022.b41a0b63.jpg",
-        "pontuacao":"75%",
-         "data":"25/03/2019",
-         "sinopse":"Um grupo de astronautas que vivem no assustador vazio do espaço profundo acordam para descobrir que a Terra sofreu um evento de extinção global.",
-         "genero":["Ficção Cientifica","Aventura","acao"],
-         "situaaco":"locacao",
-         "Idioma":"Inglês",
-         "duracao":    "2h 10min",
-         "orcamento":"10.000.000.00",
-         "receita":"15.000.000.00",
-         "lucro": "20.000.000.00"
-
-    },{
-        "id": 15,
-        "nome":"Annabele",
-        "url": "http://localhost:3000/static/media/3022.b41a0b63.jpg",
-        "pontuacao":"75%",
-         "data":"25/03/2019",
-         "sinopse":"Um grupo de astronautas que vivem no assustador vazio do espaço profundo acordam para descobrir que a Terra sofreu um evento de extinção global.",
-         "genero":["Ficção Cientifica","Aventura","acao"],
-         "situaaco":"locacao",
-         "Idioma":"Inglês",
-         "duracao":    "2h 10min",
-         "orcamento":"10.000.000.00",
-         "receita":"15.000.000.00",
-         "lucro": "20.000.000.00"
-
-    },{
-        "id": 16,
-        "nome":"3022",
-        "url": "http://localhost:3000/static/media/3022.b41a0b63.jpg",
-        "pontuacao":"75%",
-         "data":"25/03/2019",
-         "sinopse":"Um grupo de astronautas que vivem no assustador vazio do espaço profundo acordam para descobrir que a Terra sofreu um evento de extinção global.",
-         "genero":["Ficção Cientifica","Aventura","acao"],
-         "situaaco":"locacao",
-         "Idioma":"Inglês",
-         "duracao":    "2h 10min",
-         "orcamento":"10.000.000.00",
-         "receita":"15.000.000.00",
-         "lucro": "20.000.000.00"
-
-    },{
-        "id": 17,
-        "nome":"It",
-        "url": "http://localhost:3000/static/media/3022.b41a0b63.jpg",
-        "pontuacao":"75%",
-         "data":"25/03/2019",
-         "sinopse":"Um grupo de astronautas que vivem no assustador vazio do espaço profundo acordam para descobrir que a Terra sofreu um evento de extinção global.",
-         "genero":["Ficção Cientifica","Aventura","acao"],
-         "situaaco":"locacao",
-         "Idioma":"Inglês",
+         "situacao":"locacao",
+         "idioma":"Inglês",
          "duracao":    "2h 10min",
          "orcamento":"10.000.000.00",
          "receita":"15.000.000.00",
@@ -265,6 +64,5 @@
 
     }
 
-
-]
+    ]
 }
