@@ -16,7 +16,7 @@ export default class ConteudoCentral extends Component {
 
          this.state= {filmes:[],  totalPagina:5, totalObjetos:0,valor:0};
          //this.construcaoButtons = this.construcaoButtons.bind(this);
-         this.requisicaoPagina = this.requisicaoPagina.bind(this);
+         //this.requisicaoPagina = this.requisicaoPagina.bind(this);
         
      }
 
@@ -26,16 +26,16 @@ export default class ConteudoCentral extends Component {
 
         $.ajax({
 
-            url: ` http://localhost:3004/filmes?_page=1&_limit=5`,
+            url: ` http://localhost:3004/filmes?_page=1&_limit=${this.state.totalPagina}`,
             dataType:'json',
             type:'GET',
             success: function(resp,status,xhr){
              
              this.setState({filmes:resp})
 
-             this.setState.totalObjetos = Math.ceil(xhr.getResponseHeader('X-Total-Count') / this.setState.totalPagina);
+             this.state.totalObjetos = Math.ceil(xhr.getResponseHeader('X-Total-Count') / this.state.totalPagina);
 
-                        for (let index = 1; index <= this.setState.totalObjetos; index++) {
+                        for (let index = 1; index <= this.state.totalObjetos; index++) {
 
                             this.construcaoButtons(index);
                            
@@ -50,15 +50,14 @@ export default class ConteudoCentral extends Component {
       
      construcaoButtons(number){
 
-         $('.conteudo_paginacao').append(`<button type=submit value=${number}" onClick=${this.requisicaoPagina}>${number}</button>`);
-          
+         $('.conteudo_paginacao').append(`<button type=submit value=${number}" onClick=${this.requisicaoPagina.bind()}>${number}</button>`);
+          //$('.conteudo_paginacao').append(`<a href='http://localhost:3004/filmes?_page=${number}&_limit=${this.state.totalPagina}'>${number}</a>`);
          
         }
 
-      
-     requisicaoPagina(event) {
+    requisicaoPagina(event) {
           
-            event.preventDefault();
+            //event.preventDefault();
             var valor = event.target.value
             console.log(valor);
             $.ajax({
@@ -66,7 +65,7 @@ export default class ConteudoCentral extends Component {
                 dataType: 'json',
                 type: 'GET',
                 success: function(resp, status, xhr) {
-                  
+                    
                     this.setState({filmes:resp})
                     console.log(resp)
                 }.bind(this)
@@ -123,7 +122,10 @@ export default class ConteudoCentral extends Component {
                })
            }
          
-          <Footer onClick={this.requisicaoPagina} value={3}></Footer>
+          <Footer>
+             <div className="conteudo_paginacao">
+             </div>
+          </Footer>
 
          
        </div>

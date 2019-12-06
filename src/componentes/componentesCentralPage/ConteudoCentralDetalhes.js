@@ -16,9 +16,7 @@ export default class ConteudoCentralDetalhes extends Component{
     }
  
 
-    componentDidMount(){
-
-     
+    componentDidMount(){   
         $.ajax({
 
             url: ` http://localhost:3004/filmes?id=${this.props.location.query.id}`,
@@ -30,9 +28,7 @@ export default class ConteudoCentralDetalhes extends Component{
 
             }.bind(this)
         });
-      
-        
-        
+              
     }
 
      render(){
