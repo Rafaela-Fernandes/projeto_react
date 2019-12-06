@@ -16,7 +16,7 @@ export default class ConteudoCentral extends Component {
 
          this.state= {filmes:[],  totalPagina:5, totalObjetos:0,valor:0};
          //this.construcaoButtons = this.construcaoButtons.bind(this);
-         //this.requisicaoPagina = this.requisicaoPagina.bind(this);
+         this.requisicaoPagina = this.requisicaoPagina.bind(this);
         
      }
 
@@ -42,6 +42,8 @@ export default class ConteudoCentral extends Component {
                         }
             }.bind(this)
         });
+
+   
     }  
     
   
@@ -50,16 +52,16 @@ export default class ConteudoCentral extends Component {
       
      construcaoButtons(number){
 
-         $('.conteudo_paginacao').append(`<button type=submit value=${number}" onClick=${this.requisicaoPagina.bind()}>${number}</button>`);
-          //$('.conteudo_paginacao').append(`<a href='http://localhost:3004/filmes?_page=${number}&_limit=${this.state.totalPagina}'>${number}</a>`);
+         $('.conteudo_paginacao').append(`<button type=submit value=${number} onClick=${this.requisicaoPagina}>${number}</button>`);
+        
          
         }
 
-    requisicaoPagina(event) {
+  requisicaoPagina(event){
           
             //event.preventDefault();
             var valor = event.target.value
-            console.log(valor);
+            console.log("entrou" + valor);
             $.ajax({
                 url: `http://localhost:3004/filmes?_page=${valor}&_limit=${this.state.totalPagina}`,
                 dataType: 'json',
